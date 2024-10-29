@@ -37,13 +37,13 @@ export const ContactForm = () => {
         "7kSQo4GbZEO7X0ISn"
       )
       .then(
-        (response) => {
+        (response:any) => {
           setStatusMessage("Message sent successfully!");
           setSending(false);
           setFormData({ email: "", name: "", message: "", subject: "" }); // Reset form
           console.log(response);
         },
-        (error) => {
+        (error:any) => {
           setStatusMessage("Oops! unable to send message...");
           setSending(false);
           console.log(error);
