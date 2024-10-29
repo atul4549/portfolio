@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Typed from "typed.js";
-import at from "../assets/at.png";
+// import at from "../assets/at.png";
 import { FaLinkedin, FaTelegram, FaXTwitter } from "react-icons/fa6";
 import { GrInstagram } from "react-icons/gr";
 
@@ -56,7 +56,7 @@ export const Home = () => {
         </a>
       </section>
       <section className="home_image">
-        <img src={at} alt="Profile" />
+        {/* <img src={at} alt="Profile" /> */}
       </section>
     </main>
   );
