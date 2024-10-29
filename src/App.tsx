@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import { Home } from "./page/Home";
-import Header from "./page/Header";
+import { Header } from "./page/Header";
+// import Header from "./page/Header";
 function App() {
   const [activeComponent, setActiveComponent] = useState("Home");
 
