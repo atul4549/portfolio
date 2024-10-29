@@ -5,9 +5,9 @@ import Header from "./page/Header";
 function App() {
   const [activeComponent, setActiveComponent] = useState("Home");
 
-  const handleComponentChange = (componentName: any) => {
-    setActiveComponent(componentName);
-  };
+  // const handleComponentChange = (componentName: any) => {
+  //   setActiveComponent(componentName);
+  // };
 
   return (
     <>
