@@ -1,4 +1,7 @@
-import skils from "../assets/skils.json";
+// import skils from "../assets/skils.json";
+
+import { skill } from "../assets/skils";
+
 
 export const Skill = () => {
   // Helper function to render skill cards
@@ -13,8 +16,8 @@ export const Skill = () => {
 
   return (
     <main className="skills" id="skills">
-      <section>{renderSkills(skils.slice(0, 6))}</section>
-      <section>{renderSkills(skils.slice(6, 13))}</section>
+      <section>{renderSkills(skill.slice(0, 6))}</section>
+      <section>{renderSkills(skill.slice(6, 13))}</section>
       <section>
         <div className="skill">
           <h1>Typescript</h1>
